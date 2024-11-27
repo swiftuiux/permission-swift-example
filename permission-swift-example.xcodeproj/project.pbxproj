@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7867962D2CF73BDE00352F7A /* grand-access in Frameworks */ = {isa = PBXBuildFile; productRef = 7867962C2CF73BDE00352F7A /* grand-access */; };
 		787362A72C31602000341ECC /* permission_swift_exampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787362A62C31602000341ECC /* permission_swift_exampleApp.swift */; };
 		787362A92C31602000341ECC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787362A82C31602000341ECC /* ContentView.swift */; };
 		787362AB2C31602200341ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787362AA2C31602200341ECC /* Assets.xcassets */; };
 		787362AE2C31602200341ECC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 787362AD2C31602200341ECC /* Preview Assets.xcassets */; };
-		787362B62C31605900341ECC /* grand-access in Frameworks */ = {isa = PBXBuildFile; productRef = 787362B52C31605900341ECC /* grand-access */; };
 		787362B82C3160AC00341ECC /* ScanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787362B72C3160AC00341ECC /* ScanButton.swift */; };
 		787362BC2C3162F900341ECC /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787362BB2C3162F900341ECC /* Progress.swift */; };
 		787362BF2C316D0000341ECC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 787362BE2C316D0000341ECC /* README.md */; };
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787362B62C31605900341ECC /* grand-access in Frameworks */,
+				7867962D2CF73BDE00352F7A /* grand-access in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			);
 			name = "permission-swift-example";
 			packageProductDependencies = (
-				787362B52C31605900341ECC /* grand-access */,
+				7867962C2CF73BDE00352F7A /* grand-access */,
 			);
 			productName = "permission-swift-example";
 			productReference = 787362A32C31602000341ECC /* permission-swift-example.app */;
@@ -153,7 +153,7 @@
 			);
 			mainGroup = 7873629A2C31602000341ECC;
 			packageReferences = (
-				787362B42C31605900341ECC /* XCRemoteSwiftPackageReference "grand-access" */,
+				7867962B2CF73BDE00352F7A /* XCRemoteSwiftPackageReference "grand-access" */,
 			);
 			productRefGroup = 787362A42C31602000341ECC /* Products */;
 			projectDirPath = "";
@@ -398,9 +398,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		787362B42C31605900341ECC /* XCRemoteSwiftPackageReference "grand-access" */ = {
+		7867962B2CF73BDE00352F7A /* XCRemoteSwiftPackageReference "grand-access" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/The-Igor/grand-access.git";
+			repositoryURL = "https://github.com/igor11191708/grand-access";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -409,9 +409,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		787362B52C31605900341ECC /* grand-access */ = {
+		7867962C2CF73BDE00352F7A /* grand-access */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 787362B42C31605900341ECC /* XCRemoteSwiftPackageReference "grand-access" */;
+			package = 7867962B2CF73BDE00352F7A /* XCRemoteSwiftPackageReference "grand-access" */;
 			productName = "grand-access";
 		};
 /* End XCSwiftPackageProductDependency section */
