@@ -400,7 +400,7 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		7867962B2CF73BDE00352F7A /* XCRemoteSwiftPackageReference "grand-access" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/igor11191708/grand-access";
+			repositoryURL = "https://github.com/swiftuiux/grand-access";
 			requirement = {
 				branch = main;
 				kind = branch;
